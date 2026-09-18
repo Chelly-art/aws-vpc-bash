@@ -5,14 +5,6 @@ source variables.sh
 
 echo "Starting AWS VPC setup..."
 
-# Ask for AWS credentials
-read -p "Enter your AWS Access Key: " AWS_ACCESS_KEY_ID
-read -s -p "Enter your AWS Secret Key: " AWS_SECRET_ACCESS_KEY
-echo
-
-export AWS_ACCESS_KEY_ID
-export AWS_SECRET_ACCESS_KEY
-
 # Check AWS connection
 echo "Checking AWS connection..."
 
