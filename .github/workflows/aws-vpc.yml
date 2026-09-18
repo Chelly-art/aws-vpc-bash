@@ -23,3 +23,8 @@ jobs:
 
       - name: Check AWS connection
         run: aws sts get-caller-identity
+        
+      - name: Run AWS VPC script
+        run: |
+          chmod +x aws_script.sh
+          ./aws_script.sh
