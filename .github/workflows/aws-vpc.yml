@@ -18,7 +18,7 @@ jobs:
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v6.3.0
         with:
-          role-to-assume: ROLE arn:aws:iam::592964950410:role/GitHubActions-AWS-VPC
+          role-to-assume: arn:aws:iam::592964950410:role/GitHubActions-AWS-VPC
           aws-region: us-east-1
 
       - name: Check AWS connection
